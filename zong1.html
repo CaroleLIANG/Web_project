@@ -1,0 +1,309 @@
+﻿<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/footer.css">
+<head>
+    <meta content="text/html;charset=utf-8">
+    <title>中大捉泥</title>
+    <script type="text/javascript">
+       /* function GetUser() {
+            var user = '<%=session.getAttribute("name")%>';
+            //alert(user);
+            //var name =(String)session.getAttribute("name");
+            var show = document.getElementById("menu");
+            if(user!=null){show.innerHTML=user.value;document.write(name);
+            alert(user);}
+        }*/
+    </script>
+    <style>
+     	* {margin:0;padding:0;}
+        li{list-style-type:none}
+        body {
+        	background: #005825;}
+		#header_outer{
+        	/*background-color: #888;*/
+        	border-bottom: solid 2px white;
+        }
+        #nav_outer{
+        	background-color:#005825;
+        	height: 55px; 
+        }
+        .main_outer{
+        	/*background-color: rgb(200,254,182);*/
+        	background-image: url('images/bk1.jpg');
+        	background-repeat: no-repeat;
+        	background-size: cover;
+        	background-position: center;
+			
+        }
+        #footer_outer{
+        	/*background-color: #888;*/
+        }
+        .clear {clear:both}
+		.wrapper{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		#footer{
+			/*background-color: #666;*/
+			width: 1200px;
+			height: 100px;
+		}		
+    </style>
+</head>
+<body>
+    <div id="header_outer">
+        <div id="header1" class="wrapper">
+             <div id="menu"><a href="test.jsp" >个人中心</a> | <a href="login.jsp" >登录</a> | <a href="register.jsp">注册</a> | <a href="logout.jsp">退出</a> </div>
+        </div><!--header-->
+        <div id="header2" class="wrapper">
+        	<div id="logo"><img src="images/logo3.jpg" alt="中山大学"></div>
+        	<div id="CTitle">中大 捉泥</div>
+        	<div id="ETitle">SUN YAT-SEN UNIVERSITY JOURNEY</div>
+        </div>
+    </div> <!--header_outer-->
+
+    <div id="nav_outer">
+    	<ul class="wrapper" id="nav">
+            <li id="nav1"><a href="zong1.html" class="nav_hover">网站首页</a></li>
+            <li id="nav2"><a href="zongnanxiao.html" target="_blank">南校区</a>
+                <ul class="subnav">
+                    <li id="a">校区简介</li>
+                    <li><span>|</span></li>
+                    <li id="a">校区风光</li>
+                    <li><span>|</span></li>
+                    <li id="a">美食攻略</li>
+                </ul>
+            </li>
+            <li id="nav3"><a href="zongdongxiao.html" target="_blank">东校区</a>
+                <ul class="subnav">
+                    <li id="a">校区简介</li>
+                    <li><span>|</span></li>
+                    <li id="a">校区风光</li>
+                    <li><span>|</span></li>
+                    <li id="a">美食攻略</li>
+                </ul>
+            </li>
+            <li id="nav4"><a href="zongbeixiao.html" target="_blank">北校区</a>
+                <ul class="subnav">
+                    <li id="a">校区简介</li>
+                    <li><span>|</span></li>
+                    <li id="a">校区风光</li>
+                    <li><span>|</span></li>
+                    <li id="a">美食攻略</li>
+                </ul>
+            </li>
+            <li id="nav5"><a href="zongzhuhaixiaoqu.html" target="_blank">珠海校区</a>
+                <ul class="subnav">
+                    <li id="a">校区简介</li>
+                    <li><span>|</span></li>
+                    <li id="a">校区风光</li>
+                    <li><span>|</span></li>
+                    <li id="a">美食攻略</li>
+                </ul>
+            </li>
+        </ul>
+    </div>	
+
+    <div id="main1_outer" class="main_outer">
+        <div class="wrapper" id="main1">
+        	<div class="slides">
+				<img class="slide" id="s1" src="images/paifang.jpg">
+				<img class="slide" id="s2" src="images/nanbeijiaoxuelou.jpg">
+            	<img class="slide" id="s3" src="images/sunzhongshantongxiang.jpg">
+            	<img class="slide" id="s4" src="images/xiting.jpg">
+            	<img class="slide" id="s5" src="images/tushuguan.jpg">
+            	<img class="slide" id="s6" src="images/fengyuqiuchang.jpg">
+            	<img class="slide" id="s7" src="images/yixuebowuguan.jpg">
+            	<img class="slide" id="s8" src="images/lingnantang.jpg">
+            	<img class="slide" id="s9" src="images/shangxiajiu.jpg">
+            	<img class="slide" id="s10" src="images/chihuokuaixian.jpg">
+            	<img class="slide" id="s11" src="images/paifang.jpg">
+				<img class="slide" id="s12" src="images/nanbeijiaoxuelou.jpg">
+            </div>
+        </div>
+        <div class="wrapper" id="main2">
+            <div class="main_l">
+                <div class="row1">
+					<div id="h"><h2>美食篇</h2></div>
+					<div class="part">
+	                	<h3>南校区</h3>
+	                	<div id="part1">
+		                    <a href=""><img class="meishi" id="m1" src="images/xueyifantang.jpg"></a>
+		                    <p id="didian"> 地点：学一饭堂</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：套餐、自选、笼仔饭</p>
+		                </div>
+		                <div class="clear"></div>
+		                <div id="part2">
+	                    	<a href=""><img class="meishi" id="m2" src="images/640.jpg"></a>
+	                    	<p id="didian"> 地点：学五饭堂</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：麻辣烫、笼仔饭、啫啫煲</p>
+	                    </div>
+	                    <div class="clear"></div>
+		                <div id="part3">
+	                    	<a href=""><img class="meishi" id="m3" src="images/641.jpg"></a>
+	                    	<p id="didian"> 地点：春晖园</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：小炒、煲仔饭、肠粉</p>
+	                    </div>
+					</div>
+	                <p id="more"><a href="http://mp.weixin.qq.com/s/6SaInRUknMwggSQJvEhHxw" target="_blank"> >> more</a></p>
+	                
+	                
+	                <div class="part">	    
+                    	<h3>东校区</h3>
+                    	<div id="part1">
+                    		<a href=""><img class="meishi" id="m4" src="images/dongxiao1.jpg"></a>
+                    		<p id="didian"> 地点：行政楼食堂</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：自选、套餐、扒饭</p>
+                    	</div>
+                    	<div class="clear"></div>
+		                <div id="part2">
+	                    	<a href=""><img class="meishi" id="m5" src="images/dongxiao3.jpg"></a>
+	                    	<p id="didian"> 地点：第一学生饭堂</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：自选、重庆鸡公煲、扒饭</p>
+	                    </div>
+	                    <div class="clear"></div>
+		                <div id="part3">
+	                    	<a href=""><img class="meishi" id="m6" src="images/dongxiao2.jpg"></a>
+	                    	<p id="didian"> 地点：第二学生饭堂</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：肠粉、扒饭、麻辣烫</p>
+	                    </div>
+					</div>
+	                <p id="more"><a href="http://mp.weixin.qq.com/s/qUPl5bBQyXNio658amFmSw" target="_blank"> >> more</a></p>
+                    
+                    <div class="clear"></div>
+                    <div class="part">
+                    	<h3>北校区</h3>
+                    	<div id="part1">
+                    		<a href=""><img class="meishi" id="m7" src="images/bei1.jpg"></a>
+                    		<p id="didian"> 地点：学一食堂</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：小炒、锅仔菜、鸡蛋饼</p>
+                    	</div>
+                    	<div class="clear"></div>
+		                <div id="part2">
+	                    	<a href=""><img class="meishi" id="m8" src="images/bei2.jpg"></a>
+	                    	<p id="didian"> 地点：清真食堂</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：包子、饼食、手工拉面</p>
+	                    </div>
+	                    <div class="clear"></div>
+		                <div id="part3">
+	                    	<a href=""><img class="meishi" id="m9" src="images/bei3.jpg"></a>
+	                    	<p id="didian"> 地点：杏林阁</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：煎饼、炖汤、甜品</p>
+	                    </div>
+					</div>
+	                <p id="more"><a href="http://mp.weixin.qq.com/s/WE5BbaVePy5-QtLZhuBP3g" target="_blank"> >> more</a></p>
+                    
+                    <div class="clear"></div>
+                    <div class="part">
+                    	<h3>珠海校区</h3>
+                    	<div id="part1">
+                    		<a href=""><img class="meishi" id="m10" src="images/zhuhai3.jpg"></a>
+                    		<p id="didian"> 地点：榕一</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：蛋堡、滑蛋饭、炒面</p>
+                    	</div>
+                    	<div class="clear"></div>
+		                <div id="part2">
+	                    	<a href=""><img class="meishi" id="m11" src="images/643.jpg"></a>
+	                    	<p id="didian"> 地点：榕二</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：麻辣烫、烤冷面、煲仔饭</p>
+	                    </div>
+	                    <div class="clear"></div>
+		                <div id="part3">
+	                    	<a href=""><img class="meishi" id="m12" src="images/zhuhai2.jpg"></a>
+	                    	<p id="didian"> 地点：岁月湖</p>
+		                    <p>评价：<img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/><img class="star" src="images/wgw_star.gif"/></p>
+		                    <p>推荐菜式：酱爆饭、石锅饭、五谷渔粉</p>
+	                    </div>
+ 					</div>
+ 					<p id="more"><a href="http://mp.weixin.qq.com/s/Ohg8y5rKD5RKJncsxaRKag" target="_blank"> >> more</a></p>                   
+                 </div>
+
+            </div><!--main_l-->
+            <div class="main_r">
+                <div class="row1">
+					<div id="conment"><iframe width="290" height="790" frameborder="1" scrolling="yes" src="commentshow.jsp">Your browser does not handle frames!</iframe></div>
+					<div id="liuyan"> 
+						<p>留下你的足迹：</p>
+						<iframe width="290" height="350" frameborder="1" scrolling="yes" src="comment.jsp">Your browser does not handle frames!</iframe>
+					</div>
+                </div>
+       
+            </div><!--main_r-->
+            <div class="main_m">
+                <div class="row1">
+                	<div id="h"><h2>风景篇</h2></div>
+                	<div class="part">
+                    	<a href="nanxiao.html" target="_blank"><h3>南校区</h3></a>
+                    	<figure>
+							<img src="images/xiting.jpg" title="惺亭">
+							<img src="images/sunzhongshantongxiang.jpg" title="孙中山铜像">
+							<img src="images/gelantang.jpg" title="格兰堂（大钟楼）">
+							<img src="images/huaishitang.jpg" title="怀士堂">
+							<img src="images/heishiwu.jpg" title="黑石屋">
+							<img src="images/lingnantang.jpg" title="岭南堂">	
+                    	</figure>
+                    </div>
+                    <div class="part">
+                    	<a href="dongxiao.html" target="_blank"><h3>东校区</h3></a>
+                    	<figure>
+							<img src="images/nanbeijiaoxuelou.jpg" title="南北教学楼">
+							<img src="images/beimenpaifang.jpg" title="中山大学北门牌坊">
+							<img src="images/shenghuoqu.jpg" title="生活区">
+							<img src="images/dongxiaotushuguan.jpg" title="图书馆">
+							<img src="images/gongxueyuanyuanlou.jpg" title="工学院院楼">
+							<img src="images/dongxiaotiyuchang.jpg" title="体育场">
+                    	</figure>
+                    </div>
+                    <div class="part">
+                    	<a href="beixiao.html" target="_blank"><h3>北校区</h3></a>
+                    	<figure>
+							<img src="images/bangonglou.jpg" title="办公楼（红楼）">
+							<img src="images/yixuetushuguan.jpg" title="医学图书馆">			
+							<img src="images/hemuliutaifurenshiyanlou.jpg" title="何母刘太夫人实验楼">
+							<img src="images/yixuebowuguan.jpg" title="医学博物馆">
+							<img src="images/xiaoxunpai.jpg" title="校训牌">
+							<img src="images/yixuekejizonghelou.jpg" title="医学科技综合楼">
+                    	</figure>
+                    </div>
+                    <div class="part">
+                    	<a href="zhuhaixiaoqu.html" target="_blank"><h3>珠海校区</h3></a>
+                    	<figure>
+							<img src="images/caihongmen.jpg" title="彩虹门">
+							<img src="images/xiaoxunshi.jpg" title="校训石">
+							<img src="images/fengyuqiuchang.jpg" title="风雨球场">
+							<img src="images/yinhu.jpg" title="隐湖">
+							
+							<img src="images/tushuguan.jpg" title="图书馆">
+							<img src="images/ruohai.jpg" title="若海">
+                    	</figure>
+                    </div>
+                </div>
+                
+            </div><!--main_m--> 
+            <div class="clear"></div>
+        </div> <!--main wrapper-->
+    </div> <!--main1_outer-->
+
+    <div id="footer_outer">
+        <div id="footer" class="wrapper">
+            <div class="bottomlogo"><img src="images/logo3.jpg"></div>
+        	<div class="bottomcontact_cn">联系方式: 020-84112828</div>
+        	<div class="bottomcontact_en">TEL: +86-20-84112828</div>      
+        </div><!--footer-->
+    </div> <!--footer_outer-->
+</body>
+</html>
